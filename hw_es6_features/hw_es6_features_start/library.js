@@ -16,8 +16,12 @@ addBooks(newBooks){
 }
 
 printInventory() {
+  let book = {
+    title: book.title,
+    author: book.author
+  }
   this.books.forEach((book) => {
-    console.log(`${book.title} by ${book.author}`);
+    console.log(title + `by` + author);
   })
 };
 };
